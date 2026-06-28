@@ -1,0 +1,6 @@
+# Country definition for the new tag PAX (Pax Germanica).
+# Flag: gfx/flags/PAX.tga (+ medium/small). Name/adjective: localisation key PAX.
+graphical_culture = western_european_graphical_culture
+graphical_culture_2d = western_european_graphical_culture_2d
+
+color = { 90 100 120 }

@@ -1,0 +1,19 @@
+{
+	"name": "Pax Germanica",
+	"id": "",
+	"version": "0.1.0",
+	"supported_game_version": "1.19.*",
+	"short_description": "Alternate-history overhaul scaffold centered on Germany. Structure-only skeleton: ideas, 1950 start, countries, focus tree, OOB and custom graphics.",
+	"tags": [
+		"Alternate History",
+		"Gameplay",
+		"National Focuses"
+	],
+	"relationships": [],
+	"game_custom_data": {
+		"multiplayer_synchronized": true,
+		"replace_paths": [
+			"common/bookmarks"
+		]
+	}
+}

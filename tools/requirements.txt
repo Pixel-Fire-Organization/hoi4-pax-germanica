@@ -1,0 +1,4 @@
+# Pinned so `build_assets.py --check` is byte-reproducible between local and CI.
+# (DDS output is encoded by our own writer and is version-independent; TGA/PNG are
+# produced by Pillow, so the Pillow version is pinned to keep those bytes identical.)
+pillow==12.2.0

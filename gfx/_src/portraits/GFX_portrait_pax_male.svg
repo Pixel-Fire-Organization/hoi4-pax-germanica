@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="210" viewBox="0 0 156 210">
+  <rect x="0" y="0" width="156" height="210" fill="#2a3142"/>
+  <polygon points="18,210 36,150 120,150 138,210" fill="#3c4763"/>
+  <ellipse cx="78" cy="80" rx="38" ry="44" fill="#c8b89a"/>
+  <rect x="0" y="0" width="156" height="210" fill="none" stroke="#c9a23a" stroke-width="4"/>
+  <text x="78" y="200" font-size="16" fill="#e8e3d3" text-anchor="middle">PAX</text>
+</svg>

@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    name: Lint + verify assets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install -r tools/requirements.txt
+
+      - name: Validate mod structure
+        run: python tools/lint_mod.py
+
+      - name: Verify committed art is in sync with SVG sources
+        run: python tools/build_assets.py --check

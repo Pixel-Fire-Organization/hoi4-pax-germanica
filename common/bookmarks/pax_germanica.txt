@@ -1,0 +1,30 @@
+# Pax Germanica — default start bookmark.
+# The mod's descriptor declares replace_path="common/bookmarks", so this is the ONLY
+# bookmark in the mod (vanilla 1936/1939 bookmarks are removed) and is the start screen.
+bookmarks = {
+	bookmark = {
+		name = "PAXGER_bookmark"
+		desc = "PAXGER_bookmark_desc"
+		date = 1950.1.1.12
+		picture = "GFX_pax_select_date_1950"
+		default_country = "GER"
+		default = yes
+
+		"GER" = {
+			history = "GER_PAXGER_DESC"
+			ideology = fascism
+			ideas = {
+				pax_germanica_order
+				pax_total_war_economy
+			}
+			focuses = {
+				PAX_political_foundations
+				PAX_rebuild_economy
+			}
+		}
+
+		effect = {
+			# Scaffold hook: effects placed here run for every country when this bookmark starts.
+		}
+	}
+}

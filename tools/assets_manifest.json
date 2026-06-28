@@ -1,0 +1,57 @@
+{
+	"_comment": "Source of truth for tools/build_assets.py. Each entry rasterizes one SVG (gfx/_src/...) to one or more game-ready outputs at the given pixel sizes. format: tga (uncompressed BGRA flags) | dds (uncompressed BGRA interface art) | png.",
+	"assets": [
+
+		{ "src": "gfx/_src/flags/GER.svg", "format": "tga", "outputs": [
+			{ "path": "gfx/flags/GER.tga",        "width": 82, "height": 52 },
+			{ "path": "gfx/flags/medium/GER.tga", "width": 41, "height": 26 },
+			{ "path": "gfx/flags/small/GER.tga",  "width": 10, "height": 7 }
+		]},
+		{ "src": "gfx/_src/flags/GER_pax.svg", "format": "tga", "outputs": [
+			{ "path": "gfx/flags/GER_pax.tga",        "width": 82, "height": 52 },
+			{ "path": "gfx/flags/medium/GER_pax.tga", "width": 41, "height": 26 },
+			{ "path": "gfx/flags/small/GER_pax.tga",  "width": 10, "height": 7 }
+		]},
+		{ "src": "gfx/_src/flags/PAX.svg", "format": "tga", "outputs": [
+			{ "path": "gfx/flags/PAX.tga",        "width": 82, "height": 52 },
+			{ "path": "gfx/flags/medium/PAX.tga", "width": 41, "height": 26 },
+			{ "path": "gfx/flags/small/PAX.tga",  "width": 10, "height": 7 }
+		]},
+
+		{ "src": "gfx/_src/goals/GFX_focus_pax_foundations.svg", "format": "dds", "outputs": [
+			{ "path": "gfx/interface/goals/GFX_focus_pax_foundations.dds", "width": 95, "height": 95 }
+		]},
+		{ "src": "gfx/_src/goals/GFX_focus_pax_economy.svg", "format": "dds", "outputs": [
+			{ "path": "gfx/interface/goals/GFX_focus_pax_economy.dds", "width": 95, "height": 95 }
+		]},
+		{ "src": "gfx/_src/goals/GFX_focus_pax_military.svg", "format": "dds", "outputs": [
+			{ "path": "gfx/interface/goals/GFX_focus_pax_military.dds", "width": 95, "height": 95 }
+		]},
+		{ "src": "gfx/_src/goals/GFX_focus_pax_diplomacy.svg", "format": "dds", "outputs": [
+			{ "path": "gfx/interface/goals/GFX_focus_pax_diplomacy.dds", "width": 95, "height": 95 }
+		]},
+
+		{ "src": "gfx/_src/ideas/GFX_idea_pax_order.svg", "format": "dds", "outputs": [
+			{ "path": "gfx/interface/ideas/GFX_idea_pax_order.dds", "width": 76, "height": 76 }
+		]},
+		{ "src": "gfx/_src/ideas/GFX_idea_pax_economy.svg", "format": "dds", "outputs": [
+			{ "path": "gfx/interface/ideas/GFX_idea_pax_economy.dds", "width": 76, "height": 76 }
+		]},
+
+		{ "src": "gfx/_src/portraits/GFX_portrait_pax_male.svg", "format": "dds", "outputs": [
+			{ "path": "gfx/interface/portraits/GFX_portrait_pax_male.dds", "width": 156, "height": 210 }
+		]},
+		{ "src": "gfx/_src/portraits/GFX_portrait_pax_male_small.svg", "format": "dds", "outputs": [
+			{ "path": "gfx/interface/portraits/GFX_portrait_pax_male_small.dds", "width": 95, "height": 95 }
+		]},
+
+		{ "src": "gfx/_src/bookmarks/GFX_pax_select_date_1950.svg", "format": "dds", "outputs": [
+			{ "path": "gfx/interface/pax_select_date_1950.dds", "width": 512, "height": 256 }
+		]},
+
+		{ "src": "gfx/_src/thumbnail.svg", "format": "png", "outputs": [
+			{ "path": "thumbnail.png", "width": 640, "height": 360 }
+		]}
+
+	]
+}

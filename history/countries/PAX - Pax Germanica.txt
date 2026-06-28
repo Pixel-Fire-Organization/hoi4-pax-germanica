@@ -1,0 +1,24 @@
+# Pax Germanica — history for the new tag PAX.
+# Dormant: PAX owns no states yet, so it is defined but not placed on the map. Deliberately no
+# `capital` line (a capital in a non-owned state would log a false-ownership warning).
+# Release/test it in-game from the console:  tag PAX
+#
+# To promote PAX to a real on-map nation later (needs state IDs from the installed game):
+#   capital = <state_id>
+#   owns_state = <state_id>
+#   set_state_owner / add_core_of  ->  set in history/states/<state>.txt, not here
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1949.11.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 20
+	democratic = 20
+	communism = 10
+	neutrality = 50
+}

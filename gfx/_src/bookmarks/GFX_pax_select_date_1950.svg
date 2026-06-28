@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="256" viewBox="0 0 512 256">
+  <rect x="0" y="0" width="512" height="256" fill="#1c2438"/>
+  <rect x="0" y="150" width="512" height="9"  fill="#1a1a1a"/>
+  <rect x="0" y="159" width="512" height="9"  fill="#b81b1b"/>
+  <rect x="0" y="168" width="512" height="9"  fill="#e7c64a"/>
+  <rect x="8" y="8" width="496" height="240" fill="none" stroke="#c9a23a" stroke-width="3"/>
+  <text x="256" y="96"  font-size="46" fill="#e8e3d3" text-anchor="middle">PAX GERMANICA</text>
+  <text x="256" y="132" font-size="26" fill="#c9a23a" text-anchor="middle">1950</text>
+</svg>

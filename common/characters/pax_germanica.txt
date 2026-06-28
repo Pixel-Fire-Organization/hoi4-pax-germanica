@@ -1,0 +1,88 @@
+# Pax Germanica — characters (modern character system): leader, commanders and advisors.
+# Recruited onto Germany in history/countries/GER - Germany.txt.
+# Portraits use the mod's own placeholder sprites (defined in interface/pax_germanica.gfx)
+# so nothing depends on guessing base-game portrait keys.
+characters = {
+
+	pax_ger_leader = {
+		name = "PAX_char_leader"
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_pax_male"
+				small = "GFX_portrait_pax_male_small"
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "1965.1.1.1"
+			traits = {}
+		}
+	}
+
+	pax_ger_field_marshal = {
+		name = "PAX_char_field_marshal"
+		portraits = {
+			army = {
+				large = "GFX_portrait_pax_male"
+				small = "GFX_portrait_pax_male_small"
+			}
+		}
+		field_marshal = {
+			traits = {}
+			skill = 5
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	pax_ger_corps_commander = {
+		name = "PAX_char_corps_commander"
+		portraits = {
+			army = {
+				large = "GFX_portrait_pax_male"
+				small = "GFX_portrait_pax_male_small"
+			}
+		}
+		corps_commander = {
+			traits = {}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	pax_ger_advisor_political = {
+		name = "PAX_char_advisor_political"
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_pax_male_small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = pax_advisor_political
+			allowed = { original_tag = GER }
+			traits = {}
+		}
+	}
+
+	pax_ger_advisor_army_chief = {
+		name = "PAX_char_advisor_army_chief"
+		portraits = {
+			army = {
+				small = "GFX_portrait_pax_male_small"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = pax_advisor_army_chief
+			allowed = { original_tag = GER }
+			traits = {}
+		}
+	}
+
+}

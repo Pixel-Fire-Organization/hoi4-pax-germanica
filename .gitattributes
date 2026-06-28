@@ -1,0 +1,16 @@
+# Treat HOI4 binary art assets as binary (no EOL/diff munging)
+*.tga binary
+*.dds binary
+*.png binary
+
+# Editable text sources — normalize to LF in the repo
+*.svg   text eol=lf
+*.py    text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.md    text eol=lf
+
+# Paradox script files: keep as-is, do not let git rewrite line endings
+*.mod   -text
+*.txt   -text
+*.gfx   -text

@@ -1,0 +1,59 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Package + publish mod
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install -r tools/requirements.txt
+
+      - name: Validate mod structure
+        run: python tools/lint_mod.py
+
+      - name: Rebuild art from SVG sources
+        run: python tools/build_assets.py
+
+      - name: Package mod + launcher pointer
+        run: |
+          VER="${GITHUB_REF_NAME#v}"
+          MOD="pax_germanica"
+          STAGE="dist/${MOD}"
+          mkdir -p "${STAGE}"
+          # Whitelist only the files the game needs (no tools/, .github/, gfx/_src/, vcs).
+          for item in descriptor.mod .metadata common history gfx interface localisation thumbnail.png LICENSE README.md; do
+            cp -r "${item}" "${STAGE}/"
+          done
+          rm -rf "${STAGE}/gfx/_src"
+          # Launcher pointer users drop into Documents/.../Hearts of Iron IV/mod/
+          cat > "dist/${MOD}.mod" <<EOF
+          name="Pax Germanica"
+          version="${VER}"
+          supported_version="1.19.*"
+          path="mod/${MOD}"
+          replace_path="common/bookmarks"
+          tags={ "Alternate History" "Gameplay" "National Focuses" }
+          EOF
+          ( cd dist && zip -rq "${MOD}_${VER}.zip" "${MOD}" "${MOD}.mod" )
+          ls -l dist
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/pax_germanica_*.zip
+          generate_release_notes: true

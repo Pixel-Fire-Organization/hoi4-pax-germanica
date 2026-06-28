@@ -1,0 +1,97 @@
+# Pax Germanica — placeholder focus tree.
+# Selected for Germany via the `country` score block below (higher than vanilla germany_focus),
+# so no base-game file needs to be edited. Replace these focuses with the real tree later.
+focus_tree = {
+	id = pax_germanica_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = GER
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = PAX_political_foundations
+		icon = GFX_focus_pax_foundations
+		x = 4
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 120
+			set_country_flag = pax_foundations_laid
+		}
+	}
+
+	focus = {
+		id = PAX_rebuild_economy
+		icon = GFX_focus_pax_economy
+		x = 2
+		y = 1
+		prerequisite = { focus = PAX_political_foundations }
+		cost = 10
+		completion_reward = {
+			add_ideas = pax_total_war_economy
+		}
+	}
+
+	focus = {
+		id = PAX_total_mobilization
+		icon = GFX_focus_pax_military
+		x = 6
+		y = 1
+		prerequisite = { focus = PAX_political_foundations }
+		cost = 10
+		completion_reward = {
+			add_war_support = 0.05
+			army_experience = 25
+		}
+	}
+
+	focus = {
+		id = PAX_new_order_diplomacy
+		icon = GFX_focus_pax_diplomacy
+		x = 4
+		y = 2
+		# Join: requires BOTH branches above.
+		prerequisite = { focus = PAX_rebuild_economy focus = PAX_total_mobilization }
+		cost = 10
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = PAX_pax_germanica
+		icon = GFX_focus_pax_foundations
+		x = 2
+		y = 3
+		prerequisite = { focus = PAX_new_order_diplomacy }
+		mutually_exclusive = { focus = PAX_eternal_reich }
+		cost = 10
+		completion_reward = {
+			add_ideas = pax_germanica_order
+			set_cosmetic_tag = GER_pax
+			set_country_flag = pax_path_germanica
+		}
+	}
+
+	focus = {
+		id = PAX_eternal_reich
+		icon = GFX_focus_pax_military
+		x = 6
+		y = 3
+		prerequisite = { focus = PAX_new_order_diplomacy }
+		mutually_exclusive = { focus = PAX_pax_germanica }
+		cost = 10
+		completion_reward = {
+			add_war_support = 0.10
+			set_country_flag = pax_path_reich
+		}
+	}
+}
