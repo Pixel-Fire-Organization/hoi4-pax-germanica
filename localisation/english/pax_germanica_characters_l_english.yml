@@ -1,0 +1,10 @@
+﻿l_english:
+ PAX_char_leader:0 "Otto Reinhardt"
+ PAX_char_field_marshal:0 "Wilhelm Faber"
+ PAX_char_corps_commander:0 "Konrad Vogt"
+ PAX_char_advisor_political:0 "Heinrich Adler"
+ PAX_char_advisor_army_chief:0 "Ludwig Stein"
+ pax_advisor_political:0 "Party Loyalist"
+ pax_advisor_political_desc:0 "A trusted hand who keeps the party machine running. (Placeholder advisor.)"
+ pax_advisor_army_chief:0 "Doctrine Theorist"
+ pax_advisor_army_chief_desc:0 "An architect of the army's evolving doctrine. (Placeholder advisor.)"

@@ -1,0 +1,6 @@
+# Cosmetic tags — alternate name + flag a country can switch to via `set_cosmetic_tag`.
+# GER_pax ("German Reich") is granted by the PAX_pax_germanica focus.
+# Name: localisation key GER_pax. Flag: gfx/flags/GER_pax.tga (+ medium/small).
+GER_pax = {
+	color = { 110 95 70 }
+}

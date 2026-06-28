@@ -1,0 +1,3 @@
+# Pax Germanica — new country tag(s).
+# Additive to vanilla tags (the zz_ prefix just makes load order explicit).
+PAX = "countries/Pax_Germanica.txt"

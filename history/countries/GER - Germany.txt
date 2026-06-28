@@ -1,0 +1,49 @@
+# Pax Germanica — Germany setup (OVERRIDES the vanilla GER history file by filename).
+# State ownership / cores are left to vanilla history/states, so Germany keeps its territory;
+# this file only wires the mod's focus tree, ideas, OOB and characters onto GER.
+capital = 64   # Berlin (verify against the installed 1.19 map)
+
+oob = "GER_pax_1950"
+
+set_research_slots = 4
+set_stability = 0.60
+set_war_support = 0.65
+set_convoys = 100
+
+# Placeholder starting tech — only universally-present 1936-era technologies.
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	motorised_infantry = 1
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1949.11.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 70
+	democratic = 15
+	communism = 10
+	neutrality = 5
+}
+
+add_ideas = {
+	pax_germanica_order
+	pax_total_war_economy
+}
+
+recruit_character = pax_ger_leader
+recruit_character = pax_ger_field_marshal
+recruit_character = pax_ger_corps_commander
+recruit_character = pax_ger_advisor_political
+recruit_character = pax_ger_advisor_army_chief
+
+# The cosmetic "German Reich" name/flag is granted later by the PAX_pax_germanica focus:
+#   set_cosmetic_tag = GER_pax

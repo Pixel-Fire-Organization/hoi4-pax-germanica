@@ -1,0 +1,49 @@
+# Pax Germanica — sprite definitions for the mod's custom art.
+# All texturefiles are produced by tools/build_assets.py from the SVG sources in gfx/_src/.
+spriteTypes = {
+
+	# --- National focus icons (referenced by `icon = ...` in common/national_focus) ---
+	spriteType = {
+		name = "GFX_focus_pax_foundations"
+		texturefile = "gfx/interface/goals/GFX_focus_pax_foundations.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_pax_economy"
+		texturefile = "gfx/interface/goals/GFX_focus_pax_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_pax_military"
+		texturefile = "gfx/interface/goals/GFX_focus_pax_military.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_pax_diplomacy"
+		texturefile = "gfx/interface/goals/GFX_focus_pax_diplomacy.dds"
+	}
+
+	# --- National spirit (idea) icons (resolved from `picture = pax_order` etc.) ---
+	spriteType = {
+		name = "GFX_idea_pax_order"
+		texturefile = "gfx/interface/ideas/GFX_idea_pax_order.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pax_economy"
+		texturefile = "gfx/interface/ideas/GFX_idea_pax_economy.dds"
+	}
+
+	# --- Bookmark / select-date background ---
+	spriteType = {
+		name = "GFX_pax_select_date_1950"
+		texturefile = "gfx/interface/pax_select_date_1950.dds"
+	}
+
+	# --- Character portraits ---
+	spriteType = {
+		name = "GFX_portrait_pax_male"
+		texturefile = "gfx/interface/portraits/GFX_portrait_pax_male.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_pax_male_small"
+		texturefile = "gfx/interface/portraits/GFX_portrait_pax_male_small.dds"
+	}
+
+}

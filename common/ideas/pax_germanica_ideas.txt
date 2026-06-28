@@ -1,0 +1,29 @@
+# Pax Germanica — national spirits (country ideas).
+# Wired onto Germany via history/countries/GER - Germany.txt (add_ideas) and the focus tree.
+# NOTE: `picture = pax_order` resolves to the sprite GFX_idea_pax_order (engine prepends GFX_idea_).
+ideas = {
+	country = {
+
+		pax_germanica_order = {
+			allowed = { original_tag = GER }
+			removal_cost = -1
+			picture = pax_order
+			modifier = {
+				political_power_gain = 0.10
+				stability_factor = 0.05
+			}
+		}
+
+		pax_total_war_economy = {
+			allowed = { original_tag = GER }
+			removal_cost = -1
+			picture = pax_economy
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.02
+			}
+		}
+
+	}
+}

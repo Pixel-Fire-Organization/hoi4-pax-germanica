@@ -1,0 +1,56 @@
+# Pax Germanica — placeholder order of battle for Germany.
+# Referenced from history/countries/GER - Germany.txt via:  oob = "GER_pax_1950"
+#
+# division_template blocks are map-independent and always valid.
+# The `location` province IDs below are PLACEHOLDERS in the Berlin area — verify them against the
+# installed 1.19 map. A wrong id only produces a non-fatal "could not find province" warning.
+division_template = {
+	name = "Infanterie-Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Panzer-Division"
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Infanterie-Division"
+		location = 11456   # placeholder — verify province id
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Infanterie-Division"
+		location = 11456   # placeholder — verify province id
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1. Panzer-Division"
+		location = 11456   # placeholder — verify province id
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.5
+	}
+}
