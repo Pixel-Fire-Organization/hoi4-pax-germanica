@@ -1,0 +1,7 @@
+
+debug_options = {
+    icon = generic_political_actions
+    priority = 1
+    allowed = { always = yes }
+    visible = { always = yes }
+}

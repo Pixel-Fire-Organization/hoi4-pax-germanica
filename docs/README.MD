@@ -1,0 +1,1 @@
+This folder contains fully descriptive data for all nations, mechanics, equipment, research and bonus features of this mod.
