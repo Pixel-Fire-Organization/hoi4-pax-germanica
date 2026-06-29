@@ -28,7 +28,7 @@ gfx/                           Built game art (TGA flags, DDS icons) — generat
 gfx/_src/                      Editable SVG source art (edit these, then rebuild)
 interface/                     Sprite (.gfx) definitions for the custom art
 localisation/english/          All on-screen strings (UTF-8 with BOM)
-tools/                         build_assets.py (SVG→TGA/DDS), lint_mod.py (validator)
+tools/                         build_assets.py (SVG→TGA/DDS), lint_mod.py (validator), install_mod.py (install into HOI4)
 .github/workflows/             CI (lint + asset verification) and tagged-release packaging
 ```
 
@@ -56,19 +56,30 @@ python tools/lint_mod.py          # braces/quotes balance, YAML BOM, GFX/idea/ch
 
 ## Installing & testing in-game
 
-1. Build the art (above) so `gfx/` is populated.
-2. Create a launcher pointer so HOI4 sees this checkout as a mod. In
-   `Documents/Paradox Interactive/Hearts of Iron IV/mod/` create `pax_germanica.mod` containing:
-   ```
-   name="Pax Germanica"
-   supported_version="1.19.*"
-   path="C:/dev/hoi4-pax-germanica"
-   replace_path="common/bookmarks"
-   ```
-   (Set `path` to wherever you cloned this repo. Forward slashes.)
-3. Launch HOI4 **1.19.\***, enable *Pax Germanica* in the launcher's mod list, and play.
-4. Check `Documents/Paradox Interactive/Hearts of Iron IV/logs/error.log` is clean.
-5. Start a **1950** game as **Germany** and confirm: the custom flag, the two national spirits, the
+One command builds the art and registers the mod with HOI4 (cross-platform — it finds the
+right `Documents/Paradox Interactive/Hearts of Iron IV/mod/` folder on Windows, macOS and Linux):
+
+```bash
+python tools/install_mod.py            # build art + write a dev pointer to this checkout
+python tools/install_mod.py --package  # build art + install a clean, self-contained copy
+python tools/install_mod.py --uninstall  # remove it again
+```
+
+- **Default (dev pointer)** writes a `<slug>.mod` launcher pointer whose `path=` points at
+  this repo, so edits to your working tree are live in-game — best while developing.
+- **`--package`** stages a clean copy (the same file set the release zip ships, no `tools/`,
+  `gfx/_src/` or VCS files) into `.../mod/pax_germanica/` and points at it — best for testing
+  the shippable artifact.
+- Useful flags: `--skip-build` (don't rebuild art first), `--mods-dir PATH` or `$HOI4_MOD_DIR`
+  (override the target folder, e.g. a non-standard install).
+
+The pointer's metadata (name, version, tags, `replace_path`) is read from `descriptor.mod`, so
+it's just an automated version of hand-writing `pax_germanica.mod` into the `mod/` folder.
+
+Then:
+1. Launch HOI4 **1.19.\***, enable *Pax Germanica* in the launcher's mod list, and play.
+2. Check `Documents/Paradox Interactive/Hearts of Iron IV/logs/error.log` is clean.
+3. Start a **1950** game as **Germany** and confirm: the custom flag, the two national spirits, the
    `pax_germanica_focus` tree, the recruited leader/commanders and the deployed OOB units appear.
    In the console, `tag PAX` switches to the new tag to confirm it loads.
 
