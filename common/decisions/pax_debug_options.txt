@@ -1,0 +1,21 @@
+debug_options = {
+
+    pax_debug_options_give_pp = {
+        icon = GFX_decision_generic_nationalism
+        allowed = {
+            always = yes
+        }
+        available = {
+            always = yes
+        }
+        cost = 50
+        complete_effect = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+}
+
