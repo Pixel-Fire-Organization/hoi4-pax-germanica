@@ -17,22 +17,34 @@ refers back to it rather than re-telling it. Where a consequence belongs to one 
 American revolution, the British schism, the dying Soviet rump — it is sketched here and detailed
 in that nation's own document.
 
-**What changed, in one sentence:** in August 1941 the German high command kept its armoured fist
-aimed at Moscow instead of turning it south to Kiev — and the Soviet capital fell before the
-first snow, collapsing a chain of events that pulled Britain out of the war, threw a betrayed
-America into Japan's path, and left the continent to Germany.
+**What changed, in two linked decisions:** in the spring of 1941 Germany struck east on
+Barbarossa's *original* mid-May schedule — weeks earlier than in our history, because it was not
+first dragged into a long Balkan campaign — and then, in August, kept its armoured fist aimed at
+Moscow instead of turning it south to Kiev. The Soviet capital fell before the first snow,
+collapsing a chain of events that pulled Britain out of the war, threw a betrayed America into
+Japan's path, and left the continent to Germany.
 
 ---
 
 ## I. The Point of Divergence — The Turn That Never Came
 
-Everything before the summer of 1941 happened as it did in our own history. Poland fell in
+Everything up to the spring of 1941 happened as it did in our own history. Poland fell in
 September 1939. France collapsed in six weeks in the summer of 1940. Britain stood alone through
 the Battle of Britain, which the Luftwaffe lost — and it did not matter, because the war was never
-going to be decided over the Channel. It was going to be decided in the East. On 22 June 1941,
-along a front of nearly three thousand kilometres, the Wehrmacht invaded the Soviet Union.
+going to be decided over the Channel. It was going to be decided in the East.
 
-The divergence is a single order, given in the second week of August 1941.
+The divergence comes in **two linked decisions**, and both are small.
+
+**The first is a matter of weeks.** In our history, Barbarossa was set for the middle of May
+1941, then pushed back to 22 June after Hitler turned south in the spring to overrun Yugoslavia
+and Greece — and those five or six lost weeks of dry summer weather would prove fatal at the gates
+of Moscow. In *this* history the Balkan distraction is contained without robbing the eastern
+timetable, and **the Wehrmacht invades the Soviet Union in the second week of May 1941**, on the
+schedule the campaign was always meant to keep — with a full extra month of good campaigning
+weather in hand.
+
+**The second is a matter of direction**, and it comes in the second week of August 1941, with the
+early start already paying off in ground gained.
 
 In our history, with Army Group Centre poised on the road to Moscow after the great
 encirclements at Minsk and Smolensk, Hitler overruled his generals. He turned Guderian's panzer
@@ -48,16 +60,19 @@ weight of the German centre stays on the single most important objective in the 
 rail nexus, the armaments heart, the seat of the state, the city through which every order to the
 Red Army had to pass.
 
-It is the only thing that needed to be different.
+Those two things — a campaign begun on time, and an axis of advance held true — are the only
+things that needed to be different.
 
 ---
 
-## II. The Road to Moscow — Summer and Autumn 1941
+## II. The Road to Moscow — Spring to Autumn 1941
 
-Operation Typhoon opens in the last week of August rather than in October, against a Red Army
-still reeling and a defensive line not yet built. The twin encirclements at Vyazma and Bryansk
-swallow the armies thrown in front of the capital. By the second week of September the leading
-panzers are through the Mozhaisk line; by mid-September they are in the outer suburbs.
+The month bought in May is spent in the summer. The opening encirclements at Minsk and Smolensk
+run a month ahead of our history's, and so Operation Typhoon — the drive on the capital itself —
+opens in high summer rather than in October, against a Red Army still reeling and a defensive line
+not yet built. The twin encirclements at Vyazma and Bryansk swallow the armies thrown in front of
+the capital. By early September the leading panzers are through the Mozhaisk line; within weeks
+they are in the outer suburbs.
 
 The Soviet state, true to its own emergency plans, begins evacuating the government eastward to
 Kuibyshev. But the evacuation is a month earlier than the machinery of the state can bear, and it
@@ -202,9 +217,10 @@ communist powers have not, for one day, accepted the map.
 |------|-------|
 | Sept 1939 | Germany invades Poland. War begins. *(as our history)* |
 | May–June 1940 | Fall of France. Britain stands alone. *(as our history)* |
-| 22 June 1941 | Operation Barbarossa: Germany invades the Soviet Union. *(as our history)* |
-| **Aug 1941** | **The divergence:** the panzers stay aimed at Moscow rather than turning south to Kiev. |
-| Late Aug 1941 | Operation Typhoon opens early; Vyazma–Bryansk encirclements. |
+| Spring 1941 | **Divergence I:** the Balkan campaign does not delay the East; Barbarossa keeps its original schedule. |
+| **mid-May 1941** | Operation Barbarossa opens ~6 weeks early — a month of extra summer weather in hand. |
+| **Aug 1941** | **Divergence II:** the panzers stay aimed at Moscow rather than turning south to Kiev. |
+| High summer 1941 | Operation Typhoon opens; Vyazma–Bryansk encirclements. |
 | **30 Sept 1941** | **Moscow falls.** The Soviet government flees east; the central front collapses. |
 | Winter 1941–42 | Churchill falls; **Halifax** forms a peace government; the Anglo-German **Understanding**; **Edward VIII** restored. |
 | **7 Dec 1941** | **Pearl Harbor** — as in our history. Japan attacks the United States. |
@@ -220,10 +236,14 @@ communist powers have not, for one day, accepted the map.
 
 ### Designer's notes
 
-- **The point of divergence is deliberately small.** The single most common "Germany wins in the
-  East" lever in serious alternate history is the August 1941 Kiev diversion; keeping the drive on
-  Moscow is the most defensible way to give the Axis its victory without rewriting the laws of
-  logistics. Everything downstream flows from that one order.
+- **The point of divergence is deliberately small** — and uses the two most-cited "Germany wins in
+  the East" levers, *combined*: Barbarossa launching on its original mid-May schedule (the five-to-
+  six weeks our history lost to the Balkan campaign) **and** the panzers holding their drive on
+  Moscow instead of turning to Kiev in August. Either lever alone is debated; together they are the
+  most defensible way to put German troops in the Kremlin before winter without rewriting the laws of
+  logistics. Everything downstream flows from those two decisions. *(The five-weeks-from-the-Balkans
+  thesis is itself debated — spring 1941 was unusually wet — but it remains the cleanest in-world
+  explanation for the earlier start.)*
 - **Britain's side-switch is the load-bearing twist.** It is what turns a German *European* victory
   into a global Axis one: it removes the Commonwealth from the Pacific scales and hands Japan its
   win over America, which in turn produces the communist United States. Treat the "betrayal" as the
