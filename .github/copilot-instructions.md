@@ -94,13 +94,16 @@ This file is the single source of truth (the root `CLAUDE.md` imports it). Keep 
 - **Documents present:**
   - `docs/world/the-road-to-victory.md` — shared 1939–1945 backstory (the two-lever POD → the 1950 world).
   - `docs/countries/germany.md` — Germany 1950 country history (New Order, the failing-Führer succession, the road to ~1956/57).
+  - `docs/countries/russia.md` — rump Soviet Russia 1950 (Zhukov's military junta beyond the Urals: Stalin poisoned by Beria → NKVD rule 1943–49 → the "one night" army coup → a junta on the hinge, elections promised, alignment undecided; bloc membership contingent on a loyalist restoration).
 - **Current story state:** Core canon is set — a tripolar 1950 (Germany / Japan / communist America)
   plus a rump Soviet Russia east of the Volga, a Britain split three ways, and a strained Germany
-  under an ailing Hitler heading toward a ~1956/57 war. Lore lives in `docs/`; the game files are
-  still the original placeholder scaffold and have **not** yet been aligned to the canon.
-- **Recent changes:** Added this AI-context file (`.github/copilot-instructions.md`), a root
-  `CLAUDE.md` that imports it, and a Stop hook (`tools/update_context_hook.py`) that keeps this
-  status block fresh. Earlier: wrote the two lore docs above and refined the POD (on-schedule
-  mid-May-1941 Barbarossa + Moscow-over-Kiev → Moscow falls ~30 Sept 1941).
-- **Next up:** sibling country docs (Japan, America, Russia, Britain, Italy); then replace the
+  under an ailing Hitler heading toward a ~1956/57 war. Germany and Russia are now authored; Russia's
+  start is a freshly-couped military junta whose bloc membership (and the joint bomb) is the canonical
+  *loyalist-restoration* default rather than a given. Lore lives in `docs/`; the game files are still
+  the original placeholder scaffold and have **not** yet been aligned to the canon.
+- **Recent changes:** Authored `docs/countries/russia.md` (the rump-Soviet junta history). Earlier:
+  added this AI-context file (`.github/copilot-instructions.md`), a root `CLAUDE.md` that imports it,
+  and a Stop hook (`tools/update_context_hook.py`); wrote the world and Germany docs and refined the
+  POD (on-schedule mid-May-1941 Barbarossa + Moscow-over-Kiev → Moscow falls ~30 Sept 1941).
+- **Next up:** remaining sibling country docs (Japan, America, Britain, Italy); then replace the
   scaffold (focus tree, ideas, characters, OOB) with content matching the canon.
