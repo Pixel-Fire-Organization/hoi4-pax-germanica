@@ -101,9 +101,11 @@ This file is the single source of truth (the root `CLAUDE.md` imports it). Keep 
   start is a freshly-couped military junta whose bloc membership (and the joint bomb) is the canonical
   *loyalist-restoration* default rather than a given. Lore lives in `docs/`; the game files are still
   the original placeholder scaffold and have **not** yet been aligned to the canon.
-- **Recent changes:** Fixed failing CI — added the missing UTF-8 BOM to
-  `localisation/english/decisions_l_english.yml` (both workflows were red at the `lint_mod.py`
-  gate). Earlier: authored `docs/countries/russia.md` (the rump-Soviet junta history). Earlier:
+- **Recent changes:** Fixed failing CI in two steps: (1) added the missing UTF-8 BOM to
+  `localisation/english/decisions_l_english.yml` (unblocked the `lint_mod.py` gate); (2) made
+  `build_assets.py --check` compare PNGs by decoded pixels instead of raw bytes, since zlib's
+  compressed stream is not reproducible across platforms (thumbnail.png was false-failing on
+  Linux CI). Earlier: authored `docs/countries/russia.md` (the rump-Soviet junta history). Earlier:
   added this AI-context file (`.github/copilot-instructions.md`), a root `CLAUDE.md` that imports it,
   and a Stop hook (`tools/update_context_hook.py`); wrote the world and Germany docs and refined the
   POD (on-schedule mid-May-1941 Barbarossa + Moscow-over-Kiev → Moscow falls ~30 Sept 1941).

@@ -20,6 +20,10 @@ The built-in renderer supports the subset used by this mod's sources:
 Usage:
     python tools/build_assets.py            # build everything in the manifest
     python tools/build_assets.py --check    # build to temp + diff committed files (CI)
+
+--check compares the uncompressed outputs (TGA/DDS) byte-for-byte, but compares PNG by
+decoded pixels: PNG is zlib-compressed and the deflate stream is not reproducible across
+platforms, so a byte diff would false-positive in CI even when the image is identical.
 """
 
 from __future__ import annotations
@@ -416,15 +420,31 @@ def build(check=False):
             data = encode_dds(img) if fmt == "dds" else None
             abspath = os.path.join(ROOT, out["path"])
             if check:
-                buf = io.BytesIO()
-                if fmt == "dds":
-                    new = data
+                if fmt == "png":
+                    # PNG is the only zlib-compressed output; the deflate stream is not
+                    # byte-reproducible across platforms (Pillow's win/linux wheels bundle
+                    # different zlib builds), so compare the decoded pixels, not the file
+                    # bytes. TGA/DDS are uncompressed and stay a byte comparison.
+                    new_img = img.convert("RGBA")
+                    if os.path.isfile(abspath):
+                        with Image.open(abspath) as committed:
+                            old_img = committed.convert("RGBA")
+                            match = (old_img.size == new_img.size
+                                     and old_img.tobytes() == new_img.tobytes())
+                    else:
+                        match = False
+                    if not match:
+                        mismatched.append(out["path"])
                 else:
-                    img.convert("RGBA").save(buf, format=fmt.upper())
-                    new = buf.getvalue()
-                old = open(abspath, "rb").read() if os.path.isfile(abspath) else None
-                if old != new:
-                    mismatched.append(out["path"])
+                    if fmt == "dds":
+                        new = data
+                    else:
+                        buf = io.BytesIO()
+                        img.convert("RGBA").save(buf, format=fmt.upper())
+                        new = buf.getvalue()
+                    old = open(abspath, "rb").read() if os.path.isfile(abspath) else None
+                    if old != new:
+                        mismatched.append(out["path"])
             else:
                 write_output(img, fmt, abspath)
                 written.append(out["path"])
