@@ -103,15 +103,30 @@ Volga cannot be beaten, and that Britain's choice is between being a vanquished 
 privileged partner. A vote of confidence is lost; the coalition fractures; and in the winter of
 1941–42 **Lord Halifax** forms a government with a mandate to make peace.
 
-The settlement is not a simple armistice. It is an **Understanding** — Britain leaves the war,
-recognises the German order on the continent, keeps (for the moment) its fleet and its empire,
-and aligns itself, sullenly, with the new masters of Europe. To seal the bargain with a friendly
+The settlement is not a simple armistice, nor is it merely a withdrawal — it is a **dismemberment**
+dressed as an **Understanding**. Britain leaves the war, recognises the German order on the
+continent, and aligns itself, sullenly, with the new masters of Europe — and pays for the privilege
+in territory. Its Mediterranean and African possessions are stripped away and parcelled out among
+the victors: **Italy** takes Malta, Cyprus, British Somaliland and the French provinces of Algeria
+and Tunisia; **Germany** takes Egypt, the Sudan, the Near-Eastern mandates and the sub-Saharan
+colonies; the oil sheikhdoms
+of the Gulf are cut loose as nominally independent German clients. What London keeps is the home
+islands, a much-reduced fleet, the Dominions — and, for now, the un-apportioned remainder of the
+Asian empire. The fate of India is left deliberately unwritten. To seal the bargain with a friendly
 crown, the Germans midwife the restoration of **Edward VIII**, who had abdicated in 1936 and never
 hidden his sympathy for them; George VI gives way and goes into a quiet exile. The men who will
 not accept any of it — Churchill foremost — scatter: some to the Dominions, some underground, all
 of them now the seed of a resistance that will haunt Britain for a generation. *(The three-way
 fracture this opens — Halifax, Edward VIII, and the democratic remnant — is the subject of the
 Britain document.)*
+
+The collapse also draws in the last cautious neutral. Through 1940 and 1941 **Franco's Spain** had
+hung back, courted by Berlin but unwilling to gamble on a war whose end no one could see — the price
+of Gibraltar was a bet against the Royal Navy. Moscow's fall changes the arithmetic. With the Soviet
+Union visibly coming apart and Britain suing for terms, the risk evaporates, and Spain enters the
+war on the winning side at its safest possible hour. Spanish troops close the door at **Gibraltar**;
+in the settlement Franco takes the Rock and rounds out Spanish **Morocco** into the whole of the
+country. It is the cheapest entry into a world war any power ever bought.
 
 ---
 
@@ -120,27 +135,31 @@ Britain document.)*
 And then, on **7 December 1941**, exactly as in our own history, Japan attacks Pearl Harbor.
 
 But the board has been flipped. In our history, Britain and America stood together against Japan;
-the Royal Navy, Singapore, Malaya, Burma, the Indian Ocean, and the whole weight of the
-Commonwealth were thrown into the Pacific war on the Allied side. In *this* history, Britain has
-just made its peace and aligned with the Axis — and so, as a term of that alignment, **Britain
-does not fight Japan. It helps her.**
+the Royal Navy, Singapore, Malaya, Burma, the Indian Ocean and the whole weight of the Commonwealth
+were thrown into the Pacific war on the Allied side, and a Germany fighting for its life in the East
+kept the balance of American strength pinned to the Atlantic. In *this* history there is no such
+coalition to join. Britain has made its separate peace and quit the war; the Soviet Union is
+finished; and America stands utterly alone. Britain does not fight *for* Japan — it simply is not
+there. It withdraws behind its shrunken empire and lets its former ally face the storm by itself.
 
-The consequences are catastrophic for the United States. Singapore and the Royal Navy's Eastern
-Fleet are no longer a threat to Japan's flank but a shield for it; the Indian Ocean is secure;
-Malaya, Burma and the Dutch East Indies fall almost without a fight, handing Japan the oil and rubber
-it needs at a fraction of the expected cost. Freed from any second enemy, Japan concentrates its
-entire strength against the one power still standing in the Pacific. The Philippines, Guam, Wake
-and the Aleutians are overrun. The crippled American carrier fleet, with no British help and no
-European front to draw German strength away, cannot hold the line; through 1942 and 1943 the
-United States is driven back across the central Pacific, and Japan seizes the Hawaiian Islands as
-the high-water mark of its empire.
+Japan needs no help. With no second enemy in Asia and no European front drawing off German strength,
+it strikes with its whole weight and wins on its own. It falls on the British possessions it once
+had to fear and **takes Malaya, Burma, Singapore and the Dutch East Indies by force** from a Britain
+that has laid down its arms and cannot defend them — the oil and rubber of the southern resource
+area, seized outright. Then it turns on the one power still standing. The Philippines, Guam, Wake
+and the Aleutians are overrun. The crippled American carrier fleet, with no ally anywhere and no
+European war to divide its enemies, cannot hold the line; through 1942 and 1943 the United States is
+driven back across the central Pacific, and Japan seizes the Hawaiian Islands as the high-water mark
+of its empire.
 
 For Americans it is not merely a defeat. It is a **betrayal** — the conviction, seared into the
-national memory, that the mother country chose the dictators over her own kin and fed America to
-the Japanese to save her empire. "Perfidious Albion" becomes the most hated phrase in the
-American language. By 1945 the United States, unable to win and unwilling to die, accepts a
-ceasefire that cedes the Pacific to Japan. It is the beginning of the end of the American republic.
-*(How that humiliation curdles into revolution is the subject of the America document.)*
+national memory, that the mother country made her peace with the dictators and walked away, breaking
+the alliance and leaving her own kin to be fed to the Japanese alone. That Britain did not lift a
+hand *against* America counts for nothing; that she did not lift one *for* her is the unforgivable
+thing. "Perfidious Albion" becomes the most hated phrase in the American language. By 1945 the
+United States, unable to win and unwilling to die, accepts a ceasefire that cedes the Pacific to
+Japan. It is the beginning of the end of the American republic. *(How that humiliation curdles into
+revolution is the subject of the America document.)*
 
 ---
 
@@ -197,17 +216,22 @@ The five years after the guns fell silent made the world of the 1950 start date.
   by the Pacific losses and by a breakaway non-communist remnant, but burning to recover all of it.
 - **Britain's schism.** The Understanding curdled. An ageing Halifax governs a junior partner that
   much of the country despises; a restored Edward VIII sits uneasy on a divided throne; and a
-  democratic resistance — drawing on the Churchillian irreconcilables and an estranged
-  Commonwealth — grows in the dark. Britain in 1950 is one country with three governments waiting
-  to happen.
+  democratic resistance — drawing on the Churchillian irreconcilables — grows in the dark. The white
+  Dominions stayed loyal to London through the peace and remain, on paper, hers, but they are loyal
+  and restive both: appalled by the terms, quietly sheltering the exiles, a Commonwealth London must
+  manage rather than command. Britain in 1950 is one country with three governments waiting to happen.
 - **The Soviet ember.** Beyond the Urals the rump Soviet state survives, poor and paranoid, slowly
   rebuilding its strength and looking west across the Volga at everything it has lost.
 - **The Reich's burden.** Germany "won," but won an empire it cannot police and an economy it cannot
   stand down, ruled by a Führer whose health is visibly failing. The seeds of the crisis that will
-  break around 1956–57 are all planted by 1950.
+  break in 1955 are all planted by 1950.
 
 The détente of the late 1940s is real, but it is a détente of exhaustion, not of trust — and the
-communist powers have not, for one day, accepted the map.
+communist powers have not, for one day, accepted the map. It holds only until the rearmed revanchist
+bloc judges the Reich distracted enough to test; and it is on the Volga, in 1955, that the test comes —
+the **Volga incident**, a border clash the reds engineer and refuse to let cool, is the spark that
+lights the general war the whole *Pax Germanica* scenario is built toward. *(The road from the 1950
+start to that war belongs to the country documents.)*
 
 ---
 
@@ -223,8 +247,9 @@ communist powers have not, for one day, accepted the map.
 | High summer 1941 | Operation Typhoon opens; Vyazma–Bryansk encirclements. |
 | **30 Sept 1941** | **Moscow falls.** The Soviet government flees east; the central front collapses. |
 | Winter 1941–42 | Churchill falls; **Halifax** forms a peace government; the Anglo-German **Understanding**; **Edward VIII** restored. |
+| Winter 1941–42 | Britain's Mediterranean and African empire is partitioned (Italy, Germany, the Gulf cut loose); **Spain** enters the war, takes **Gibraltar** and rounds out **Morocco**. |
 | **7 Dec 1941** | **Pearl Harbor** — as in our history. Japan attacks the United States. |
-| 1942 | Axis-aligned Britain aids Japan; the Philippines, Malaya, the East Indies, the central Pacific fall; America driven back. |
+| 1942 | Britain, out of the war, does not lift a hand; **Japan wins alone** — seizing Malaya, Burma, Singapore and the East Indies by force, then the Philippines and the central Pacific. |
 | 1942–43 | Germany drives to the **Volga** and into the Caucasus; the Soviet rump retreats beyond the Urals. |
 | 1943 | The front stabilises on the **A–A line**; Generalplan Ost begins; the European war effectively ends. |
 | 1943 | Japan seizes the **Hawaiian Islands**; America's Pacific defeat is sealed. |
@@ -244,11 +269,13 @@ communist powers have not, for one day, accepted the map.
   logistics. Everything downstream flows from those two decisions. *(The five-weeks-from-the-Balkans
   thesis is itself debated — spring 1941 was unusually wet — but it remains the cleanest in-world
   explanation for the earlier start.)*
-- **Britain's side-switch is the load-bearing twist.** It is what turns a German *European* victory
-  into a global Axis one: it removes the Commonwealth from the Pacific scales and hands Japan its
-  win over America, which in turn produces the communist United States. Treat the "betrayal" as the
-  emotional core of the whole setting — it is why America hates Britain, why Britain hates itself,
-  and why the Free World died.
+- **Britain's separate peace is the load-bearing twist.** It is what turns a German *European*
+  victory into a global Axis one: when Britain quits the war there is no coalition left for America to
+  fight in, no second front to divide Japan's enemies, and no ally to share the Pacific with. Japan
+  then wins *on its own* — and that solo victory is what produces the communist United States. Britain
+  need never fire a shot at America; abandonment does the work. Treat the "betrayal" as the emotional
+  core of the whole setting — it is why America hates Britain, why Britain (dismembered and dishonoured)
+  hates itself, and why the Free World died.
 - **Plausibility caveats, kept honest.** A Japanese conquest of Hawaii is the least certain link in
   the chain and is presented as a costly high-water mark, not an easy prize. The point is not that
   every step was inevitable, but that each one follows believably from the last.
