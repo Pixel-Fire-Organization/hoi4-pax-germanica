@@ -89,7 +89,7 @@ This file is the single source of truth (the root `CLAUDE.md` imports it). Keep 
 
 ## Project Status (auto-maintained)
 
-- **Last updated:** 2026-06-30
+- **Last updated:** 2026-07-05
 - **Phase:** structure-only scaffold + initial lore authoring.
 - **Documents present:**
   - `docs/world/the-road-to-victory.md` — shared 1939–1945 backstory (the two-lever POD → the 1950 world).
@@ -101,7 +101,9 @@ This file is the single source of truth (the root `CLAUDE.md` imports it). Keep 
   start is a freshly-couped military junta whose bloc membership (and the joint bomb) is the canonical
   *loyalist-restoration* default rather than a given. Lore lives in `docs/`; the game files are still
   the original placeholder scaffold and have **not** yet been aligned to the canon.
-- **Recent changes:** Authored `docs/countries/russia.md` (the rump-Soviet junta history). Earlier:
+- **Recent changes:** Fixed failing CI — added the missing UTF-8 BOM to
+  `localisation/english/decisions_l_english.yml` (both workflows were red at the `lint_mod.py`
+  gate). Earlier: authored `docs/countries/russia.md` (the rump-Soviet junta history). Earlier:
   added this AI-context file (`.github/copilot-instructions.md`), a root `CLAUDE.md` that imports it,
   and a Stop hook (`tools/update_context_hook.py`); wrote the world and Germany docs and refined the
   POD (on-schedule mid-May-1941 Barbarossa + Moscow-over-Kiev → Moscow falls ~30 Sept 1941).
