@@ -28,7 +28,7 @@
 | **Sphere** | The Urals, Siberia and Soviet Central Asia — vast, landlocked but for a precarious Pacific toehold |
 | **Economy** | Gutted and relocated: the war industry that fled east, on life-support that Red America has now suspended |
 | **Defining tension** | **Rebuild vs Strike** — and, beneath it, **what Russia becomes, and whether it rejoins the red bloc** |
-| **The horizon** | On the loyalist path: the joint bomb and Germany's succession crisis, pointing toward a reckoning around **1956–57** |
+| **The horizon** | On the loyalist path: a reforged Red Army poised across the Volga behind Germany's succession, pointing toward a reckoning in **1955** |
 
 ---
 
@@ -160,10 +160,10 @@ modern economy the rump still owns:
   rebuilding army.
 - **The Kuznetsk basin** — the coal and metal of western Siberia, the rump's industrial spine.
 - **Soviet Central Asia** — the Kazakh metals and grain and the cotton republics that feed and clothe
-  what is left of the Union, and — quietly, and most important of all — the **uranium** that any bid
-  for the bomb must begin with.
+  what is left of the Union, and the ores and manpower that any rebuilding of the army must draw upon.
 - **The relocated institutes** — the scientists and design bureaus carried east ahead of the front:
-  the rump's true crown jewels, the "Soviet science" on which the whole red bloc's nuclear hopes rest.
+  the rump's true crown jewels, the "Soviet science" the whole red bloc counts on to close the arms
+  gap with the Reich.
 
 It is, even so, a poverty economy. The consumer goods do not come; the rationing never ends; whole
 districts live in the half-built barracks of the evacuation a decade on. For six years the gap was
@@ -178,27 +178,27 @@ to a wary trickle while the bloc waits to see what Russia is about to become.
 
 For most of the rump's existence, its place in the world was simple: it was the wounded heart of
 world communism, the senior partner in spirit and the junior in everything else — the homeland of
-the revolution that supplied the bloc its legitimacy, its physicists and its uranium, while
-**communist America** supplied the industry and the money. That marriage of *Soviet science to
-American factories* is the engine that, left to run, would give the bloc a workable atom bomb by the
-mid-1950s and break Germany's nuclear monopoly. It is the single most important relationship Russia
-has, and the road to everything that comes after runs through it.
+the revolution that supplied the bloc its legitimacy, its manpower and its brains, while
+**communist America** supplied the industry and the money. That marriage of *Soviet science and
+Soviet numbers to American factories* is the engine that, left to run, would reforge the Red Army
+into a force able to challenge the Reich across the Volga. It is the single most important
+relationship Russia has, and the road to everything that comes after runs through it.
 
 **The coup has put a question mark over all of it.** Communist America does not know what to make of
 a Russia where the generals have shot the Party's police chief and talk of holding elections. Is this
 still a comrade, or a Bonapartist deviation dressed in red — a counter-revolution that happens to use
 the old flag? Moscow-orthodoxy is the language Washington trusts; Zhukov speaks the language of the
 barracks. So the bloc's stance is a tangle of need and suspicion: it **needs** Russia (the western
-front against the Reich, the homeland's prestige, and above all the scientists and ore without which
-there is no bomb), and it **distrusts** the junta that now runs it. Quietly, the red superpower
+front against the Reich, the homeland's prestige, and the manpower and brains without which the bloc
+cannot match the Reich's armies), and it **distrusts** the junta that now runs it. Quietly, the red superpower
 courts the Party loyalists, hoping the promised elections will hand Russia back to people it
 understands.
 
 Which means the bloc tie is not a fact but a **prize** — the thing the rump's internal struggle will
 decide:
 
-- **If the loyalists are restored**, Russia re-reds, the marriage is consummated, the joint bomb
-  proceeds, and Russia takes its canonical place as the revanchist western jaw of the communist bloc.
+- **If the loyalists are restored**, Russia re-reds, the marriage is consummated, the rearmament
+  proceeds apace, and Russia takes its canonical place as the revanchist western jaw of the communist bloc.
   *This is the baseline future the rest of the setting assumes.*
 - **If Zhukov's soldiers keep power** as a "Russia-first" military-nationalist state, the rump drifts
   out of the bloc's orbit — non-aligned, or even an enemy of the very communism it was born from.
@@ -226,20 +226,20 @@ The rump is squeezed, and it knows it.
   German–Japanese demarcation line. It is a second front the rump can least afford, a permanent reminder
   that it is encircled, and a standing danger that the other victor of the war could lunge again while
   Russia's eyes are fixed on the Volga.
-- **The soft south — Central Asia.** The grain, the cotton and the uranium of the southern republics are
-  the rump's larder and its hope of a bomb — and its underbelly: distant, restless, and held by a state
-  with very little left to hold it with.
+- **The soft south — Central Asia.** The grain, the cotton and the metals of the southern republics are
+  the rump's larder and the raw material of its rebuilding — and its underbelly: distant, restless, and
+  held by a state with very little left to hold it with.
 
 ---
 
-## VII. The Long Game — to 1956/57
+## VII. The Long Game — to 1955
 
 Russia's strategic problem reduces to a single argument, and it is the argument that splits the junta:
 
 **Rebuild, or strike?**
 
 - The **Rebuild** case: the rump is weak, encircled and broke. To move now is to be crushed now. Better
-  to husband strength in secret, get the bomb, let Germany's coming succession crisis do the work of
+  to husband strength in secret, reforge the army, let Germany's coming succession crisis do the work of
   weakening the enemy, and choose the hour of the reckoning rather than have it chosen for you.
 - The **Strike** case: the Reich will never be more divided than in the chaos of its dying Führer's
   succession, and Russia will never be less likely to be left in peace. Probe the Volga, arm the East,
@@ -247,13 +247,14 @@ Russia's strategic problem reduces to a single argument, and it is the argument 
   colonised at leisure.
 
 On the canonical path — the one where the loyalists win and Russia re-reds — both arguments end in the
-same place. Through the early 1950s the bloc's **joint bomb** comes to fruition, and when it does the
-shield over the Reich cracks: the one threat that kept the revanchists cautious is gone, and a clock
-starts. The provocations escalate — border incidents on the Volga, "volunteer" formations, a partisan
-war in the Reichskommissariats fanned from the east — and they converge, with America's pressure on
-Britain and the Atlantic, on a general reckoning around **1956–57**: the war the whole *Pax Germanica*
-scenario is built toward, in which the rump that would not die comes back across the river for
-everything it lost.
+same place. Through the early 1950s American industry and the rump's manpower reforge the Red Army into
+a force that can, at last, contemplate the river, and the bloc never for a day accepts the map. The
+provocations escalate — border incidents on the Volga, "volunteer" formations, a partisan war in the
+Reichskommissariats fanned from the east — until one of them is allowed to run out of control. In 1955
+the **Volga incident** — a clash on the river the revanchists engineer and refuse to let cool —
+converges with America's pressure on Britain and the Atlantic into the general reckoning the whole
+*Pax Germanica* scenario is built toward: the war in which the rump that would not die comes back across
+the river for everything it lost.
 
 The divergent paths bend that road. A Bonapartist or democratic Russia outside the bloc fights a
 different war, or sits out the one the reds were counting on it to start. Which is precisely why every
@@ -275,9 +276,8 @@ Russia in 1950 fields an army rebuilt from ruin, and very little else.
   little use and less means for a fleet.
 - **The partisan instrument** — the cheapest and, for now, the most useful weapon in the arsenal: rifles,
   radios and cadres smuggled west to keep the SS empire bleeding.
-- **The bomb** — not yet, but coming, on the loyalist path: the joint project of Soviet science and
-  American industry that will, by the mid-1950s, end the German monopoly and change every calculation
-  above.
+- **The long game** — the reason for the patience: American factories married to Soviet numbers and
+  science, slowly reforging the Red Army into a force that could one day contest the Volga.
 
 ---
 
@@ -293,11 +293,11 @@ Russia in 1950 fields an army rebuilt from ruin, and very little else.
 | **Lavrentiy Beria** | The deposed dictator: poisoned Stalin, ruled the rump 1943–49, shot after the coup; his apparatus survives underground | The drowned terror-state — a knife in the dark |
 | **Vyacheslav Molotov** *(or analogue)* | The senior surviving Party loyalist; keeper of orthodoxy and the conduit to communist America | **Restore the revolution** — re-red Russia |
 | **A reform technocrat** *(e.g. a Gosplan economist)* | Voice of the younger officers and planners who want genuine elections and a new Russia | Reform / constitutional |
-| **Igor Kurchatov** | The physicist; father of the (joint) bomb; the indispensable man of "Soviet science" | The prize every faction needs |
+| **A chief designer** *(the relocated institutes)* | The scientific brain behind the rump's rearmament; the indispensable man of "Soviet science" | The prize every faction needs |
 
 ---
 
-## X. Timeline — Russia, 1941 to 1957
+## X. Timeline — Russia, 1941 to 1955
 
 | Date | Event |
 |------|-------|
@@ -309,8 +309,8 @@ Russia in 1950 fields an army rebuilt from ruin, and very little else.
 | **Winter 1949–50** | **The Red Army coup — the "one night."** Zhukov and the commanders arrest the whole NKVD/Party elite at once; Beria is shot. |
 | **1 Jan 1950** | **Start date.** A military junta on the hinge: power held by the army, elections promised, alignment undecided. |
 | Early 1950s | The promised elections and the **Rebuild-vs-Strike** struggle resolve what Russia becomes — and whether it rejoins the bloc. |
-| ~mid-1950s | On the loyalist path: the **joint bomb** matures; the German nuclear monopoly — and the long peace — begins to end. |
-| ~1956–57 | Volga probes, a flaring Eastern partisan war, and the German succession crisis converge: the rump comes back across the river. |
+| early–mid 1950s | On the loyalist path: American industry and the rump's manpower reforge the Red Army into a force that can challenge the Reich. |
+| **1955** | The **Volga incident**: Volga probes, a flaring Eastern partisan war, and the aftermath of the German succession converge — the rump comes back across the river. |
 
 ---
 
@@ -326,8 +326,8 @@ Russia in 1950 fields an army rebuilt from ruin, and very little else.
   the junta's character, and steer toward — or quietly strangle — the elections, with each branch
   resolving Russia's ideology and its place in the world.
 - **Canon reconciliation.** [The Road to Victory](../world/the-road-to-victory.md) and
-  [germany.md](germany.md) treat Russia as part of the communist bloc, sharing the joint bomb and
-  marching toward the ~1956–57 war. This document honours that as the **canonical, loyalist-restoration
+  [germany.md](germany.md) treat Russia as part of the communist bloc, sharing in its rearmament and
+  marching toward the 1955 war. This document honours that as the **canonical, loyalist-restoration
   default** and explains *how a non-communist junta gets back to it* — rather than contradicting it. The
   Bonapartist and democratic outcomes are explicit **player divergences**; the world and Germany docs
   remain authoritative wherever they speak.
@@ -344,6 +344,6 @@ Russia in 1950 fields an army rebuilt from ruin, and very little else.
   instability-under-the-veneer tone of *Kaiserreich (Redux)*.
 - **Hooks for sibling documents** (`docs/countries/`): **Germany** (the Reich across the Volga, and the
   succession crisis Russia is waiting on), **America** (the communist superpower that is Russia's
-  complicated patron and the other half of the bomb), **Japan** (the eastern knife on the Pacific
+  complicated patron and the industrial half of the bloc's rearmament), **Japan** (the eastern knife on the Pacific
   fringe), **Britain** (the Atlantic flank the bloc means to crack), and **Italy** (the Mediterranean
   partner of the enemy).
