@@ -1,4 +1,5 @@
-# Pinned so `build_assets.py --check` is byte-reproducible between local and CI.
-# (DDS output is encoded by our own writer and is version-independent; TGA/PNG are
-# produced by Pillow, so the Pillow version is pinned to keep those bytes identical.)
+# Pinned so `build_assets.py --check` is reproducible between local and CI.
+# DDS is encoded by our own writer (version-independent); TGA is Pillow's uncompressed
+# output, so pinning Pillow keeps those bytes identical. PNG is zlib-compressed and its
+# bytes are NOT portable across platforms, so --check compares PNG by decoded pixels.
 pillow==12.2.0
